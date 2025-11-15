@@ -44,9 +44,8 @@ namespace Otc
         DrawBars = 1 << 2,
         DrawNames = 1 << 3,
         DrawManaBar = 1 << 4,
-        DrawHarmony = 1 << 5,
         DrawThingsAndLights = DrawThings | DrawLights,
-        DrawCreatureInfo = DrawBars | DrawNames | DrawManaBar | DrawHarmony,
+        DrawCreatureInfo = DrawBars | DrawNames | DrawManaBar,
     };
 
     enum DatOpts : uint8_t
@@ -732,12 +731,9 @@ namespace Otc
         ITEM_DESC_PERFECT = 21,
         ITEM_DESC_UPGRADECLASS = 22,
         ITEM_DESC_CURRENTTIER = 23,
-        ITEM_DESC_test1 = 24, // @note: improve name
-        ITEM_DESC_test2 = 25, // @note: improve name
-        ITEM_DESC_test3 = 26, // @note: improve name
 
         ITEM_DESC_FIRST = ITEM_DESC_ARMOR,
-        ITEM_DESC_LAST = ITEM_DESC_test2, // @note: improve name
+        ITEM_DESC_LAST = ITEM_DESC_CURRENTTIER,
     };
 
     enum MarketAction : uint8_t

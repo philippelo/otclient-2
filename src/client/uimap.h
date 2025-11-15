@@ -75,13 +75,6 @@ public:
     void clearTiles();
 
     void setVisibleDimension(const Size& visibleDimension);
-    void setFloorViewMode(const MapView::FloorViewMode viewMode) { m_mapView->setFloorViewMode(viewMode); }
-    void setDrawNames(const bool enable) { m_mapView->setDrawNames(enable); }
-    void setDrawHealthBars(const bool enable) { m_mapView->setDrawHealthBars(enable); }
-    void setDrawLights(const bool enable) { m_mapView->setDrawLights(enable); }
-    void setLimitVisibleDimension(const bool enable) { m_mapView->setLimitVisibleDimension(enable); updateVisibleDimension(); }
-    void setDrawManaBar(const bool enable) { m_mapView->setDrawManaBar(enable); }
-    void setDrawHarmony(const bool enable) { m_mapView->setDrawHarmony(enable); }
     void setKeepAspectRatio(bool enable);
 
     bool zoomIn();

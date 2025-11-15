@@ -177,10 +177,7 @@ MarketItemDescriptionStrings = {
     [20] = 'Reflection',
     [21] = 'Perfect Show',
     [22] = 'Upgrade Classification',
-    [23] = 'Tier',
-    [24] = 'test1', -- @note: improve name
-    [25] = 'test2', -- @note: improve name
-    [26] = 'test3', -- @note: improve name
+    [23] = 'Tier'
 }
 
 function getMarketDescriptionName(id)
